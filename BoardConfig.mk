@@ -27,6 +27,7 @@ TARGET_BOARD_INFO_FILE := device/motorola/falcon/board-info.txt
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
 TARGET_KERNEL_CONFIG := falcon_defconfig
+ARM_EABI_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm

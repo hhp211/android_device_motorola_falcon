@@ -5,3 +5,6 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_RELEASE_NAME := MOTO G
 PRODUCT_NAME := cm_falcon
+
+# Custom unofficial build tag
+TARGET_UNOFFICIAL_BUILD_ID := temasek
